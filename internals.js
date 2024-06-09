@@ -28,7 +28,8 @@
 			"1": "user",
 			"2": "device",
 			"3": "device_group",
-			"4": "config"
+			"4": "config",
+			"5": "module"
 		}
 	}
 }
