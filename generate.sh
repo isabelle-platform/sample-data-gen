@@ -31,9 +31,8 @@ mkdir -p "$out"
 cp "${TOP_DIR}/internals.js" "${out}/"
 
 mkdir -p "${out}/collection"
-create_collection "$out" job
-create_collection "$out" mentee
-create_collection "$out" payment
-create_collection "$out" query
 create_collection "$out" user "${TOP_DIR}/admin.js"
-create_collection "$out" event
+create_collection "$out" device
+create_collection "$out" device_group
+create_collection "$out" config
+create_collection "$out" module
